@@ -16,5 +16,5 @@ In the orignal worksheet you can see how much slower the responce is.
 In the above example we can see how much faster the ran through the refractored code for 2018 and 2017. For 2017 the refractored code ran in 0.15625 seconds versus 1.039062 second on the original code, 2017 ran 85% faster with the refractored code. 2018 was 1.09375 versus 0.140625 and that is an 87% in crrease in response time. 
 
 ## Summary
-
+Having refractored the code tom improve the efficiecny of the run times is significnat when the data set increases which allows for faster results for the user.
 
