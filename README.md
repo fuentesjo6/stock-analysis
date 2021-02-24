@@ -14,7 +14,7 @@ In the original worksheet you can see how much slower the response is.
 ![](VBA_Challenge_2018.png) 
 ![](VBA_Challenge_2017.png)
 
-In the above example we can see how much faster the ran through the refactored code for 2018 and 2017. For 2017 the refactored code ran in 0.15625 seconds versus 1.039062 second on the original code, 2017 ran 85% faster with the refactored code. 2018 was 1.09375 versus 0.140625 and that is an 87% increase in response time. 
+Above we can see how much faster the ran through the refactored code for 2018 and 2017. For 2017 the refactored code ran in 0.15625 seconds versus 1.039062 second on the original code, 2017 ran 85% faster with the refactored code. 2018 was 1.09375 versus 0.140625 and that is an 87% increase in response time. 
 
 ## Summary
 Having refactored the code improve the efficiency of the worksheet by giving us the information we needed much faster. The code was refactored by looping though the data once instead of multiple times, how it was originally written. The original code was looping through multiple times causing the results to return slower than if we had just looped through it once. 
@@ -23,3 +23,5 @@ Having refactored the code improve the efficiency of the worksheet by giving us 
 -	2018 refactored 	0.14062 seconds
 -	2017 original 		1.03906 seconds
 -	2017 refactored	  0.15625 seconds
+
+While the original code was functional it was not efficient because the response time was about 85% slower for data that we were given. If we had to complete the same analysis for thousands of data points the original code would not be as efficient as the refactored one. As previously stated, the refactored code looped through the data once to return a response and it was done much quicker than having to loop through the data multiple times which caused it to return the result slower than after it was refactored. In the real world this would not be acceptable for someone looking to make a decision on what stock to choose. 
