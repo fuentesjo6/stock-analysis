@@ -16,5 +16,5 @@ In the orignal worksheet you can see how much slower the responce is.
 In the above example we can see how much faster the ran through the refractored code for 2018 and 2017. For 2017 the refractored code ran in 0.15625 seconds versus 1.039062 second on the original code, 2017 ran 85% faster with the refractored code. 2018 was 1.09375 versus 0.140625 and that is an 87% in crrease in response time. 
 
 ## Summary
-Having refractored the code tom improve the efficiecny of the run times is significnat when the data set increases which allows for faster results for the user.
+Having refactored the code improve the efficiency of the worksheet by giving is the information we neede much faster than when the code was orignially created. If we were given a significant amount of data the run times of the code would have also been significantly different as the more data the longer the original code would have take to return a result. By refactoring the code we can ensure that no matter how much data we are looping through the responce will always be fater than the original code. 
 
